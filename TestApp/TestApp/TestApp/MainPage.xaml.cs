@@ -18,7 +18,9 @@ namespace TestApp
         public MainPage()
         {
             InitializeComponent();
-            listView.ItemsSource = this.GetSource(50);
+            listView.ItemsSource = new string[] { "1", "2", "3"};
+
+            //listView.ItemsSource = this.GetSource(50);
             listView.SwipeOffset = Device.OnPlatform<Thickness>(new Thickness(100, 0, 100, 0), 70, 0);
             listView.LayoutDefinition.ItemLength = Device.OnPlatform<double>(60, -1, -1);
         }

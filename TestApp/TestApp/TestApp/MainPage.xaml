@@ -16,7 +16,8 @@
       <dataControls:RadListView.ItemStyle>
         <listView:ListViewItemStyle BorderWidth="0"/>
       </dataControls:RadListView.ItemStyle>
-      <dataControls:RadListView.ItemTemplate>
+      
+      <!--<dataControls:RadListView.ItemTemplate>
         <DataTemplate>
           <listView:ListViewTemplateCell>
             <listView:ListViewTemplateCell.View>
@@ -44,7 +45,7 @@
             <Button Text="decrease" TextColor="White" BackgroundColor="#66CCFF" Clicked="DecreaseButtonClicked" Grid.Column="2"/>
           </Grid>
         </DataTemplate>
-      </dataControls:RadListView.ItemSwipeContentTemplate>
+      </dataControls:RadListView.ItemSwipeContentTemplate>-->
     </dataControls:RadListView>
   </Grid>
 </ContentPage>
