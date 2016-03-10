@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Namespaces>
+  <Namespace Name="Telerik.XamarinForms.Common">
+   <Messages>
+    <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in namespace name 'Telerik.XamarinForms.Common'.</Issue>
+    </Message>
+    <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in namespace name 'Telerik.XamarinForms.Common'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Telerik.XamarinForms.Common.DataAnnotations">
+   <Messages>
+    <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in namespace name 'Telerik.XamarinForms.Common.DataAnnotations'.</Issue>
+    </Message>
+    <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in namespace name 'Telerik.XamarinForms.Common.DataAnnotations'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\_J\workspace\XamarinForms_Release\Source\Common\Telerik.XamarinForms.Common\bin\Release\Telerik.XamarinForms.Common.dll">
+   <Modules>
+    <Module Name="telerik.xamarinforms.common.dll">
+     <Messages>
+      <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in assembly name 'Telerik.XamarinForms.Common.dll'.</Issue>
+      </Message>
+      <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in assembly name 'Telerik.XamarinForms.Common.dll'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Telerik.XamarinForms.Common">
+       <Types>
+        <Type Name="AdaptersInitializationNotCompleteException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'AdaptersInitializationNotCompleteException': public AdaptersInitializationNotCompleteException().</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'AdaptersInitializationNotCompleteException': public AdaptersInitializationNotCompleteException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Background" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Implicit(Xamarin.Forms.Color):Telerik.XamarinForms.Common.Background" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="Multiple" Certainty="50" Level="Error">Provide a method named 'ToXXX' or 'FromXXX' as an alternate for operator 'Background.implicit operator Background(Color)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CommandServiceBase`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Member" Certainty="95" Level="Error">Change member names 'userCommands' and 'UserCommands' so that they differ by more than case.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataTemplateContentCastException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DataTemplateContentCastException': public DataTemplateContentCastException().</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DataTemplateContentCastException': public DataTemplateContentCastException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Defaults" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Because type 'Defaults' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ExportTypeConverterBaseAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="CriticalWarning">Change the accessibility of all public constructors in 'ExportTypeConverterBaseAttribute' to protected.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Type" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="BaseType" Certainty="95" Level="Error">The property name 'ExportTypeConverterBaseAttribute.Type' is confusing given the existence of inherited method 'object.GetType()'. Rename or remove this property.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IConvertibleObject`1" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="O" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'IConvertibleObject&lt;O&gt;', consider providing a more meaningful name than generic type parameter name 'O'.</Issue>
+          </Message>
+          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameter" Certainty="95" Level="Error">On type 'IConvertibleObject&lt;O&gt;', prefix generic type parameter name 'O' with 'T'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="INumericalRange" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Step" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Step" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Rename virtual/interface member 'INumericalRange.Step' so that it no longer conflicts with the reserved language keyword 'Step'. Using a reserved keyword as the name of a virtual/interface member makes it harder for consumers in other languages to override/implement the member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ITypeConverter`1" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Convert(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="object" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error">In member 'ITypeConverter&lt;T&gt;.Convert(object)', consider replacing the data type identifier 'Object' in parameter name 'sourceObject' with a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Location" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">The constituent members of 'Location' appear to represent flags that can be combined rather than discrete values. If this is correct, mark the enumeration with FlagsAttribute.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NotRegisteredConverterException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredConverterException': public NotRegisteredConverterException().</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredConverterException': public NotRegisteredConverterException(String).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredConverterException': public NotRegisteredConverterException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error">Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'NotRegisteredConverterException.NotRegisteredConverterException(Type)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify System.Globalization.CultureInfo.CurrentCulture as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify System.Globalization.CultureInfo.InvariantCulture.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotRegisteredRendererException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredRendererException': public NotRegisteredRendererException().</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredRendererException': public NotRegisteredRendererException(String).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotRegisteredRendererException': public NotRegisteredRendererException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error">Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'NotRegisteredRendererException.NotRegisteredRendererException(Type)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify System.Globalization.CultureInfo.CurrentCulture as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify System.Globalization.CultureInfo.InvariantCulture.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotSupportedConversionException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotSupportedConversionException': public NotSupportedConversionException().</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NotSupportedConversionException': public NotSupportedConversionException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error">Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'NotSupportedConversionException.NotSupportedConversionException(object)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify System.Globalization.CultureInfo.CurrentCulture as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify System.Globalization.CultureInfo.InvariantCulture.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RadMath" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AreClose(System.Double,System.Double,System.Double)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="num" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'RadMath.AreClose(double, double, double)', correct the spelling of 'num' in parameter name 'num1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'RadMath.AreClose(double, double, double)', correct the spelling of 'num' in parameter name 'num2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AreClose2(System.Double,System.Double,System.Double)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="num" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'RadMath.AreClose2(double, double, double)', correct the spelling of 'num' in parameter name 'num1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'RadMath.AreClose2(double, double, double)', correct the spelling of 'num' in parameter name 'num2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TelerikRendererRegistry" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in type name 'TelerikRendererRegistry'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#RegisterTypes(System.Type[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="attr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'TelerikRendererRegistry.RegisterTypes(params Type[])', correct the spelling of 'attr' in parameter name 'attrTypes' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TypeMappings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Because type 'TypeMappings' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TypeRegister`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="P" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On type 'TypeRegister&lt;P&gt;', consider providing a more meaningful name than generic type parameter name 'P'.</Issue>
+          </Message>
+          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Name="TypeTypeParameter" Certainty="95" Level="Error">On type 'TypeRegister&lt;P&gt;', prefix generic type parameter name 'P' with 'T'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Register(System.Type,System.Type,Telerik.XamarinForms.Common.ITypeConverter`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'TypeRegister&lt;P&gt;.Register(Type, Type, ITypeConverter&lt;P&gt;)' from 'TypeRegister&lt;P&gt;' or make it an instance member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Register`2()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()' from 'TypeRegister&lt;P&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning">Consider a design where 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()' doesn't require explicit type parameter 'N' in any call to it.</Issue>
+             <Issue Certainty="75" Level="Warning">Consider a design where 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()' doesn't require explicit type parameter 'O' in any call to it.</Issue>
+            </Message>
+            <Message Id="N" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On method 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()', consider providing a more meaningful name than generic type parameter name 'N'.</Issue>
+            </Message>
+            <Message Id="O" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">On method 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()', consider providing a more meaningful name than generic type parameter name 'O'.</Issue>
+            </Message>
+            <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="MethodTypeParameter" Certainty="95" Level="Error">On method 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()', prefix generic type parameter name 'N' with 'T'.</Issue>
+             <Issue Name="MethodTypeParameter" Certainty="95" Level="Error">On method 'TypeRegister&lt;P&gt;.Register&lt;O, N&gt;()', prefix generic type parameter name 'O' with 'T'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RegisterTypeConverters(System.Type[])" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="attr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'TypeRegister&lt;P&gt;.RegisterTypeConverters(params Type[])', correct the spelling of 'attr' in parameter name 'attrTypes' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WeakEventManager+WeakEvent" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+         <Members>
+          <Member Name="#IsSourceEqualTo(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="source" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">'source', a parameter declared in 'WeakEventManager.WeakEvent.IsSourceEqualTo(object)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnEvent`1(System.Object,!!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="sender" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">Parameter 'sender' of 'WeakEventManager.WeakEvent.OnEvent&lt;T&gt;(object, T)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Telerik.XamarinForms.Common.DataAnnotations">
+       <Types>
+        <Type Name="ConverterAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error">Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'ConverterAttribute.ConverterAttribute(Type)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify System.Globalization.CultureInfo.CurrentCulture as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify System.Globalization.CultureInfo.InvariantCulture.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DateRangeValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'DateRangeValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'maxDay' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'maxMonth' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'maxYear' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'minDay' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'minMonth' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+           <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'minYear' of Attribute 'DateRangeValidatorAttribute'.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'DateRangeValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DisplayValueFormatAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'DisplayValueFormatAttribute', if possible.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EmailValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'EmailValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'EmailValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IValueFormat" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Date" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Date" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Rename virtual/interface member 'IValueFormat.Date' so that it no longer conflicts with the reserved language keyword 'Date'. Using a reserved keyword as the name of a virtual/interface member makes it harder for consumers in other languages to override/implement the member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Single" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Single" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Rename virtual/interface member 'IValueFormat.Single' so that it no longer conflicts with the reserved language keyword 'Single'. Using a reserved keyword as the name of a virtual/interface member makes it harder for consumers in other languages to override/implement the member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NonEmptyValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'NonEmptyValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message Id="NonEmpty" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'NonEmpty' in type name 'NonEmptyValidatorAttribute' exists as a discrete term. If your usage is intended to be single word, case it as 'Nonempty'.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'NonEmptyValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NumericalRangeValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'NumericalRangeValidatorAttribute', if possible.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PhoneNumberValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'PhoneNumberValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'PhoneNumberValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RegularExpressionValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'RegularExpressionValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'RegularExpressionValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StringLengthValidatorAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'StringLengthValidatorAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018" Status="Active" Created="2016-01-13 11:49:33Z" FixCategory="Breaking">
+           <Issue Name="Inherited" Certainty="75" Level="Warning">Even though attribute 'StringLengthValidatorAttribute' inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012">
+   <Name>Abstract types should not have constructors</Name>
+   <Description>Public constructors for abstract types do not make sense because you cannot create instances of abstract types.</Description>
+   <Resolution Name="Default">Change the accessibility of all public constructors in {0} to protected.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182126.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813">
+   <Name>Avoid unsealed attributes</Name>
+   <Description>Seal attribute types for improved performance. Sealing attribute types speeds up performance during reflection on custom attributes.</Description>
+   <Resolution Name="Default">Seal {0}, if possible.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182267.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="TypeShouldBeDiscreteTerm">The compound word '{0}' in type name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019">
+   <Name>Define accessors for attribute arguments</Name>
+   <Description>Provide accessors for both named and positional arguments. Each positional argument on an attribute should declare a read-only property with the same name (but different casing). Each named argument should provide a read/write property with the same name (but different casing).</Description>
+   <Resolution Name="Default">Add a public read-only property accessor for positional argument {0} of Attribute {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182136.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000">
+   <Name>Do not declare static members on generic types</Name>
+   <Description>The syntax for calling static members on generic types is complex as the type parameter has to be specified for each call.</Description>
+   <Resolution Name="Default">Remove {0} from {1} or make it an instance member.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182139.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004">
+   <Name>Generic methods should provide type parameter</Name>
+   <Description>Methods where the type parameter cannot be inferred from the parameters and therefore has to be defined in the method call are too difficult to understand. Methods with a formal parameter typed as the generic method type parameter support inference. Methods with no formal parameter typed as the generic method type parameter don't support inference.</Description>
+   <Resolution Name="Default">Consider a design where {0} doesn't require explicit type parameter {1} in any call to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182150.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Assembly">Correct the spelling of '{0}' in assembly name {1}.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MethodTypeParameterMoreMeaningfulName">On method {0}, consider providing a more meaningful name than generic type parameter name {1}.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Resolution Name="TypeTypeParameterMoreMeaningfulName">On type {0}, consider providing a more meaningful name than generic type parameter name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708">
+   <Name>Identifiers should differ by more than case</Name>
+   <Description>Do not use names that require case sensitivity for uniqueness. Components must be fully usable from both case-sensitive and case-insensitive languages. Since case-insensitive languages cannot distinguish between two names within the same context that differ only by case, components must avoid this situation.</Description>
+   <Resolution Name="Member">Change member names {0} and '{1}' so that they differ by more than case.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182242.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715">
+   <Name>Identifiers should have correct prefix</Name>
+   <Description>Prefix interface names with the letter 'I' to indicate that the type is an interface, as in IFormattable. Prefix generic type parameter names with the letter 'T' and provide them with descriptive names, as in Dictionary&lt;TKey, TValue&gt;, unless a single 'T' is completely self-explanatory, as in Collection&lt;T&gt;. Use Pascal casing for both interface and type parameter names. Use abbreviations sparingly. Do not use the underscore character. Do use similar names when defining a class/interface pair where the class is a standard implementation of the interface. The names should differ only by the letter I prefixed on the interface name, as with Component and IComponent.</Description>
+   <Resolution Name="MethodTypeParameter">On method {0}, prefix generic type parameter name {1} with 'T'.</Resolution>
+   <Resolution Name="TypeTypeParameter">On type {0}, prefix generic type parameter name {1} with 'T'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182243.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720">
+   <Name>Identifiers should not contain type names</Name>
+   <Description>Avoid using language-specific types name in parameters and members and data type identifiers in parameters. Types names might not be intuitive for all developers. It is recommended that you select a generic name, such as 'value', instead. If this is not sufficient, be sure to use the type name as it is defined in the .NET Framework Library and avoid language-specific type names completely. Some examples of C#-specific type names are 'float' (use 'Single' if a generic name is not sufficient), and 'ulong' (use 'UInt64' if a generic name is not sufficient).</Description>
+   <Resolution Name="LanguageIndependentMemberParameter">In member {0}, consider replacing the data type identifier '{1}' in parameter name {2} with a more generic term, such as 'value'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb531486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716">
+   <Name>Identifiers should not match keywords</Name>
+   <Description>Identifiers which conflict with reserved language keywords should be avoided. Using a reserved keyword as an identifier makes it harder for consumers in other languages to use your API.</Description>
+   <Resolution Name="Member">Rename virtual/interface member {0} so that it no longer conflicts with the reserved language keyword '{1}'. Using a reserved keyword as the name of a virtual/interface member makes it harder for consumers in other languages to override/implement the member.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182248.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032">
+   <Name>Implement standard exception constructors</Name>
+   <Description>Multiple constructors are required to correctly implement a custom exception. Missing constructors can make your exception unusable in certain scenarios. For example, the serialization constructor is required for handling exceptions in XML Web services.</Description>
+   <Resolution Name="MissingConstructor">Add the following constructor to {0}: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182151.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAttributesWithAttributeUsage" Category="Microsoft.Design" CheckId="CA1018">
+   <Name>Mark attributes with AttributeUsageAttribute</Name>
+   <Description>The AttributeUsage attribute specifies the targets that are valid for the attribute (see System.AttributeTargets), whether an attribute can appear on a target more than once, and whether the attribute is inheritable.</Description>
+   <Resolution Name="Inherited">Even though attribute {0} inherits AttributeUsage from its base type, you should consider explicitly specifying AttributeUsage on the type to improve code readability and documentation.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182158.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error, Warning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027">
+   <Name>Mark enums with FlagsAttribute</Name>
+   <Description>The enumeration appears to be made up of combinable flags. If this true, apply the Flags attribute to the enumeration.</Description>
+   <Resolution Name="Default">The constituent members of {0} appear to represent flags that can be combined rather than discrete values. If this is correct, mark the enumeration with FlagsAttribute.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182159.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225">
+   <Name>Operator overloads have named alternates</Name>
+   <Description>When redefining operators, implement named methods to provide access to the operator functionality from languages that do not support operator overloading. For example, the functionality of the '+' operator should also be accessible using an 'Add' method.</Description>
+   <Resolution Name="Multiple">Provide a method named '{0}' or '{1}' as an alternate for operator {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182355.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721">
+   <Name>Property names should not match get methods</Name>
+   <Description>A Get method was found with the same name as a property. Get methods and properties should have names that clearly distinguish their function. See the design guidelines for information regarding choosing properties over methods.</Description>
+   <Resolution Name="BaseType">The property name {0} is confusing given the existence of inherited method {1}. Rename or remove this property.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182253.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182268.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>Static holder types should not have constructors</Name>
+   <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified. To prevent this, adding an empty private constructor may be required.</Description>
+   <Resolution Name="Default">Because type {0} contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182169.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variable names should not match field names</Name>
+   <Description>Instance field and variable names should not be identical within the same scope.</Description>
+   <Resolution Name="Parameter">{0}, a parameter declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182216.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0068" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>Debug information could not be found for target assembly 'Telerik.XamarinForms.Common.dll'. For best analysis results, include the .pdb file with debug information for 'Telerik.XamarinForms.Common.dll' in the same directory as the target assembly.</ExceptionMessage>
+  </Exception>
+ </Exceptions>
+</FxCopReport>

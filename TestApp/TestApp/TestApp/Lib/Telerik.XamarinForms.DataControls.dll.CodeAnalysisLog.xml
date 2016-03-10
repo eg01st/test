@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Namespaces>
+  <Namespace Name="Telerik.XamarinForms.DataControls">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'Telerik.XamarinForms.DataControls' with another namespace.</Issue>
+    </Message>
+    <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in namespace name 'Telerik.XamarinForms.DataControls'.</Issue>
+    </Message>
+    <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in namespace name 'Telerik.XamarinForms.DataControls'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Telerik.XamarinForms.DataControls.ListView">
+   <Messages>
+    <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in namespace name 'Telerik.XamarinForms.DataControls.ListView'.</Issue>
+    </Message>
+    <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in namespace name 'Telerik.XamarinForms.DataControls.ListView'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\bin\Release\Telerik.XamarinForms.DataControls.dll">
+   <Modules>
+    <Module Name="telerik.xamarinforms.datacontrols.dll">
+     <Messages>
+      <Message Id="Telerik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Telerik' in assembly name 'Telerik.XamarinForms.DataControls.dll'.</Issue>
+      </Message>
+      <Message Id="Xamarin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Xamarin' in assembly name 'Telerik.XamarinForms.DataControls.dll'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Telerik.XamarinForms.DataControls">
+       <Types>
+        <Type Name="RadListView" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="c:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\ListView" File="RadListView.Selection.cs" Line="13">Initialize all static fields in 'RadListView' when those fields are declared and remove the explicit static constructor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Telerik.XamarinForms.DataControls.ListView">
+       <Types>
+        <Type Name="FilterDescriptorBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DefaultFilter(System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\ListView\Descriptors\Filter" File="FilterDescriptorBase.cs" Line="15">In member 'FilterDescriptorBase.DefaultFilter(object)', consider replacing the data type identifier 'obj' in parameter name 'obj' with a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GroupDescriptorBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DefaultKeyExtractor(System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\ListView\Descriptors\Group" File="GroupDescriptorBase.cs" Line="15">In member 'GroupDescriptorBase.DefaultKeyExtractor(object)', consider replacing the data type identifier 'obj' in parameter name 'obj' with a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SortDescriptorBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DefaultComparer(System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2016-01-13 11:50:27Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\ListView\Descriptors\Sort" File="SortDescriptorBase.cs" Line="15">In member 'SortDescriptorBase.DefaultComparer(object, object)', consider replacing the data type identifier 'obj' in parameter name 'obj1' with a more generic term, such as 'value'.</Issue>
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\_J\workspace\XamarinForms_Release\Source\DataControls\Telerik.XamarinForms.DataControls\ListView\Descriptors\Sort" File="SortDescriptorBase.cs" Line="15">In member 'SortDescriptorBase.DefaultComparer(object, object)', consider replacing the data type identifier 'obj' in parameter name 'obj2' with a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>Avoid namespaces with few types</Name>
+   <Description>A namespace should generally have more than five types.</Description>
+   <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Assembly">Correct the spelling of '{0}' in assembly name {1}.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720">
+   <Name>Identifiers should not contain type names</Name>
+   <Description>Avoid using language-specific types name in parameters and members and data type identifiers in parameters. Types names might not be intuitive for all developers. It is recommended that you select a generic name, such as 'value', instead. If this is not sufficient, be sure to use the type name as it is defined in the .NET Framework Library and avoid language-specific type names completely. Some examples of C#-specific type names are 'float' (use 'Single' if a generic name is not sufficient), and 'ulong' (use 'UInt64' if a generic name is not sufficient).</Description>
+   <Resolution Name="LanguageIndependentMemberParameter">In member {0}, consider replacing the data type identifier '{1}' in parameter name {2} with a more generic term, such as 'value'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb531486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810">
+   <Name>Initialize reference type static fields inline</Name>
+   <Description>Static fields should be initialized when declared. Initializing static data in explicit static constructors results in less performant code.</Description>
+   <Resolution Name="Default">Initialize all static fields in {0} when those fields are declared and remove the explicit static constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182275.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
