@@ -4,7 +4,7 @@
              xmlns:dataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
              xmlns:listView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
              x:Class="TestApp.MainPage">
-  <Grid BackgroundColor="#33888888">
+  <Grid BackgroundColor="#33888888"    >
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>
       <RowDefinition/>

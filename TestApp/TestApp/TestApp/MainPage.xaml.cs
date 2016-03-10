@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using TestApp.Annotations;
 using Xamarin.Forms;
 
 namespace TestApp
@@ -19,9 +22,9 @@ namespace TestApp
             listView.SwipeOffset = Device.OnPlatform<Thickness>(new Thickness(100, 0, 100, 0), 70, 0);
             listView.LayoutDefinition.ItemLength = Device.OnPlatform<double>(60, -1, -1);
         }
-        private System.Collections.IEnumerable GetSource(int count)
+        private ObservableCollection<Item> GetSource(int count)
         {
-            var items = new List<Item>();
+            ObservableCollection<Item> items = new ObservableCollection<Item>();
             for (int i = 0; i < count; i++)
             {
                 items.Add(new Item { Name = string.Format("product {0}", i), Value = randomNumbers[i] });
@@ -51,11 +54,31 @@ namespace TestApp
         }
     }
 
-    internal class Item
+    internal class Item : INotifyPropertyChanged
 
     {
-        public string Name { get; set; }
-        public int Value { get; set; }
+        private int value;
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; OnPropertyChanged(); }
+        }
+
+        public int Value
+        {
+            get { return value; }
+            set { this.value = value; OnPropertyChanged(); }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 
 }
